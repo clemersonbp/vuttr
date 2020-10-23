@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
-import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -11,7 +9,4 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+//Arquivo gerado a partir do comando create react-app que renderiza a aplicaçao e "joga" para nossa div #root dentro do index.html. Em casos de trabalharmos com multiplas paginas, aqui estariamos direcionando dentro do render, para um arquivo de rotas, onde trabalhariamos com o react-router-dom.

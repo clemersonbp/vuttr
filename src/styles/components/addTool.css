@@ -1,0 +1,23 @@
+#myBtn {
+    width: 200px;
+    height: 30px;
+    
+    background: rgb(225, 224, 224) 0% 0% no-repeat padding-box;
+    border: 0 solid rgb(225, 224, 224);
+    border-radius: 5px;
+    opacity: 1;
+
+    box-shadow: 6px 10px 10px rgb(53, 51, 51);
+
+    transition: .2s;
+}
+
+#myBtn:hover {
+    background: rgba(0, 178, 1);
+    color: rgb(225, 224, 224);
+}
+
+#myBtn:focus {
+    outline: 0;
+}
+

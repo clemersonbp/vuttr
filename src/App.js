@@ -1,24 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Input from './components/Search';
+import InputTag from './components/InputTag';
+import AddTool from './components/AddTool';
+import Tools from './components/Tools';
+
+import logo from './assets/logo.jpg';
+
+import './styles/app.css'
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="center">
+        <header>
+          <h1>VUTTR<p>Very Useful Tools to Remember</p></h1>
+          <img src={logo} className="logo" alt="V4" />
+        </header>
+        <main className="search-tools">
+          <Input />
+          <InputTag />
+          <p>search tags only</p>
+          <AddTool />
+        </main>
+        <div className="tools">
+          <Tools />
+        </div>
+      </div>
     </div>
   );
 }

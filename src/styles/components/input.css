@@ -1,0 +1,19 @@
+.input {
+    width: 250px;
+    height: 30px;
+    padding-left: 15px;
+
+    background: rgb(225, 224, 224) 0% 0% no-repeat padding-box;
+    border: 1px solid rgb(225, 224, 224);
+    border-radius: 5px;
+    opacity: 1;
+
+    box-shadow: 6px 10px 10px rgb(53, 51, 51);
+
+    transition: .2s;
+}
+
+.input:focus {
+    background: #FFF;
+	outline: 0;
+}
